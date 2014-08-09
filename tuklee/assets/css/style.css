@@ -1,0 +1,300 @@
+body{
+	background: rgba(118,54,172,0.2);
+    padding: 0;
+}
+
+
+a{
+	color:rgb(18,18,18);
+}
+
+.margen-top{
+	margin-top: 7px;
+}
+
+.page-container{
+	min-height: 0px;
+    padding-top: 51px; 
+	/*height: inherit !important;*/
+}
+
+.navbar-inverse{
+	background: linear-gradient(rgba(118,54,172,1), rgba(118,85,172,1));
+	border-color: rgba(118,85,172,1);
+}
+
+.navbar-inverse button{
+	color: white !important;
+}
+
+.navbar-inverse .navbar-brand{
+	color : white;
+}
+
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus{
+	color: white;
+	text-decoration: underline;
+}
+
+.navbar-inverse .navbar-toggle{
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover, 
+.navbar-inverse .navbar-toggle:focus{
+	background: transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+	background: white;
+	transition : all 0.3s;
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar,
+.navbar-inverse .navbar-toggle:focus .icon-bar{
+	width: 25px;
+}
+
+.navbar-header{
+	display: flex;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form{
+	border: none;
+	box-shadow: none;
+	/*box-shadow: inset 0px 26px 41px -30px rgba(0,0,0,0.83);*/
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus{
+	color: white;
+	text-decoration: underline;
+}
+
+.btn-primary,
+.label-primary,
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus,
+.btn.active,
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus{
+	background: rgba(118,54,172,1);
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary{
+	background: rgba(118,54,172,0.8);
+	border-color: rgba(118,54,172,0.8);
+}
+
+.navbar .nav > li,
+.navbar .nav{
+	float : none;
+	text-align: center;
+	vertical-align: top;
+}
+
+.navbar-inner{
+	text-align: center;
+	display: flex;
+}
+
+.navbar-brand{
+	margin: 0 auto;
+}
+
+.navbar-inner button{
+	font-size: 16px;
+}
+
+.navbar-inner button.btn-left{
+	float: left;
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 8px;
+}
+
+.panel-heading{
+	background: rgba(118,54,172,1) !important;
+	color: white !important;
+}
+
+h3, h4, h5{
+	color: inherit;
+}
+
+.input-group-addon{
+	font-size: 19px;
+}
+
+.panel-heading a.btn.btn-link.pull-right{
+	font-size: 18px;
+	color: white;
+}
+
+.form-control:focus{
+    border-color: rgba(118,54,172,0.7);
+    box-shadow: none;
+}
+
+@media screen and (min-width: 768px){
+	.navbar .nav > li,
+	.navbar .nav{
+		float: left;
+	}
+
+	.navbar-inner{
+		display: block;
+	}
+}
+
+/*-----------------------------Login-----------------------------------------*/
+html{
+        height: 100%;
+}
+
+.login {
+    padding-top: 0px; 
+    background-image: url("../img/Fondo.jpg");
+    background-size: 100% 100% !important;
+    height: 100%;
+    color: #f9f9f9;
+}
+
+.principal{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.cont{
+    padding-top: 0px;
+    padding: 0 0 0 0;
+}
+
+.text{
+    font: 14px sans-serif;
+}
+
+.app{
+    padding-top: 0px;
+}
+
+.form{
+    background-image: url("../img/registro.png");
+    background-size: 100%;
+    height: 135px;
+    width: 291px;
+    margin: 0 auto;
+}
+
+.group-1{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 10px;
+    font: 15px sans-serif;
+    font-weight: normal !important;
+}
+
+.control-login{
+    height: 28px;
+}
+
+.mover{
+    font-size: 50px;
+    margin: 0 10px;
+}
+
+.move1{
+    width: 270px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.33); 
+    position: absolute;
+    top: 440px;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+#draggable {
+    width:50px;
+    height:50px;
+    background-color:#f00;
+    position:absolute;
+}
+
+.slide{
+    top: 442px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white; 
+    position: absolute;
+    margin-left: 55px;
+}
+
+/*-----------------------------Card------------------------------------------*/
+
+.photoCard{
+    width: 100px;
+    height: 120px;
+}
+
+.fileInvisible{
+    display: none !important;
+}
+
+.fileVisible{
+    font-size: 10px;
+    width: 100px;
+    height: 15px;
+    margin: 0 auto;
+    color: #AEAEAE;
+}
+
+.card{
+    background-color: lavender;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*----------------------------User-------------------------------*/
+
+.user2{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.user1{
+    width: 100%;
+    height: auto;
+    background-color: lavender;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.userImage{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+#errorMessageLogin, #errorMessageCard{
+    display: none;
+    color: #FFFFFF;
+    background-color: #9038F4;
+    border: none;
+    margin-top: 80px;
+}
